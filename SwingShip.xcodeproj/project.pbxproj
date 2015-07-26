@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13936D0B1B6001A400C2254F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13936D0A1B6001A400C2254F /* main.m */; };
+		13936D0E1B6001A400C2254F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13936D0D1B6001A400C2254F /* AppDelegate.m */; };
+		13936D111B6001A400C2254F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13936D101B6001A400C2254F /* ViewController.m */; };
+		13936D141B6001A400C2254F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13936D121B6001A400C2254F /* Main.storyboard */; };
+		13936D161B6001A400C2254F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13936D151B6001A400C2254F /* Images.xcassets */; };
+		13936D191B6001A400C2254F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13936D171B6001A400C2254F /* LaunchScreen.xib */; };
+		13936D251B6001A400C2254F /* SwingShipTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13936D241B6001A400C2254F /* SwingShipTests.m */; };
+		13936D311B60027800C2254F /* Sharazan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 13936D301B60027800C2254F /* Sharazan.mp3 */; };
+		13E1AA031B6531A10022C65E /* pirate_ship_new.png in Resources */ = {isa = PBXBuildFile; fileRef = 13E1A9FE1B6531A10022C65E /* pirate_ship_new.png */; };
+		13E1AA041B6531A10022C65E /* sea01.png in Resources */ = {isa = PBXBuildFile; fileRef = 13E1A9FF1B6531A10022C65E /* sea01.png */; };
+		13E1AA051B6531A10022C65E /* sea02.png in Resources */ = {isa = PBXBuildFile; fileRef = 13E1AA001B6531A10022C65E /* sea02.png */; };
+		13E1AA061B6531A10022C65E /* sea03.png in Resources */ = {isa = PBXBuildFile; fileRef = 13E1AA011B6531A10022C65E /* sea03.png */; };
+		13E1AA071B6531A10022C65E /* sea04.png in Resources */ = {isa = PBXBuildFile; fileRef = 13E1AA021B6531A10022C65E /* sea04.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13936D1F1B6001A400C2254F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13936CFD1B6001A400C2254F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13936D041B6001A400C2254F;
+			remoteInfo = SwingShip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13936D051B6001A400C2254F /* SwingShip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwingShip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13936D091B6001A400C2254F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13936D0A1B6001A400C2254F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		13936D0C1B6001A400C2254F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		13936D0D1B6001A400C2254F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		13936D0F1B6001A400C2254F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		13936D101B6001A400C2254F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		13936D131B6001A400C2254F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		13936D151B6001A400C2254F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		13936D181B6001A400C2254F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		13936D1E1B6001A400C2254F /* SwingShipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwingShipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13936D231B6001A400C2254F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13936D241B6001A400C2254F /* SwingShipTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwingShipTests.m; sourceTree = "<group>"; };
+		13936D301B60027800C2254F /* Sharazan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Sharazan.mp3; path = ../../../../../Users/KhueMinh/Downloads/Sharazan.mp3; sourceTree = "<group>"; };
+		13E1A9FE1B6531A10022C65E /* pirate_ship_new.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pirate_ship_new.png; sourceTree = "<group>"; };
+		13E1A9FF1B6531A10022C65E /* sea01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sea01.png; sourceTree = "<group>"; };
+		13E1AA001B6531A10022C65E /* sea02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sea02.png; sourceTree = "<group>"; };
+		13E1AA011B6531A10022C65E /* sea03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sea03.png; sourceTree = "<group>"; };
+		13E1AA021B6531A10022C65E /* sea04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sea04.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13936D021B6001A400C2254F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13936D1B1B6001A400C2254F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13936CFC1B6001A400C2254F = {
+			isa = PBXGroup;
+			children = (
+				13936D071B6001A400C2254F /* SwingShip */,
+				13936D211B6001A400C2254F /* SwingShipTests */,
+				13936D061B6001A400C2254F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		13936D061B6001A400C2254F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13936D051B6001A400C2254F /* SwingShip.app */,
+				13936D1E1B6001A400C2254F /* SwingShipTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13936D071B6001A400C2254F /* SwingShip */ = {
+			isa = PBXGroup;
+			children = (
+				13936D0C1B6001A400C2254F /* AppDelegate.h */,
+				13936D0D1B6001A400C2254F /* AppDelegate.m */,
+				13936D0F1B6001A400C2254F /* ViewController.h */,
+				13936D101B6001A400C2254F /* ViewController.m */,
+				13936D121B6001A400C2254F /* Main.storyboard */,
+				13936D151B6001A400C2254F /* Images.xcassets */,
+				13936D171B6001A400C2254F /* LaunchScreen.xib */,
+				13936D2F1B60026000C2254F /* Sounds */,
+				13936D2E1B60025100C2254F /* Images */,
+				13936D081B6001A400C2254F /* Supporting Files */,
+			);
+			path = SwingShip;
+			sourceTree = "<group>";
+		};
+		13936D081B6001A400C2254F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				13936D091B6001A400C2254F /* Info.plist */,
+				13936D0A1B6001A400C2254F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13936D211B6001A400C2254F /* SwingShipTests */ = {
+			isa = PBXGroup;
+			children = (
+				13936D241B6001A400C2254F /* SwingShipTests.m */,
+				13936D221B6001A400C2254F /* Supporting Files */,
+			);
+			path = SwingShipTests;
+			sourceTree = "<group>";
+		};
+		13936D221B6001A400C2254F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				13936D231B6001A400C2254F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13936D2E1B60025100C2254F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				13E1A9FE1B6531A10022C65E /* pirate_ship_new.png */,
+				13E1A9FF1B6531A10022C65E /* sea01.png */,
+				13E1AA001B6531A10022C65E /* sea02.png */,
+				13E1AA011B6531A10022C65E /* sea03.png */,
+				13E1AA021B6531A10022C65E /* sea04.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		13936D2F1B60026000C2254F /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				13936D301B60027800C2254F /* Sharazan.mp3 */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13936D041B6001A400C2254F /* SwingShip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13936D281B6001A400C2254F /* Build configuration list for PBXNativeTarget "SwingShip" */;
+			buildPhases = (
+				13936D011B6001A400C2254F /* Sources */,
+				13936D021B6001A400C2254F /* Frameworks */,
+				13936D031B6001A400C2254F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwingShip;
+			productName = SwingShip;
+			productReference = 13936D051B6001A400C2254F /* SwingShip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		13936D1D1B6001A400C2254F /* SwingShipTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13936D2B1B6001A400C2254F /* Build configuration list for PBXNativeTarget "SwingShipTests" */;
+			buildPhases = (
+				13936D1A1B6001A400C2254F /* Sources */,
+				13936D1B1B6001A400C2254F /* Frameworks */,
+				13936D1C1B6001A400C2254F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13936D201B6001A400C2254F /* PBXTargetDependency */,
+			);
+			name = SwingShipTests;
+			productName = SwingShipTests;
+			productReference = 13936D1E1B6001A400C2254F /* SwingShipTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13936CFD1B6001A400C2254F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Nguyen Minh Khue";
+				TargetAttributes = {
+					13936D041B6001A400C2254F = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					13936D1D1B6001A400C2254F = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 13936D041B6001A400C2254F;
+					};
+				};
+			};
+			buildConfigurationList = 13936D001B6001A400C2254F /* Build configuration list for PBXProject "SwingShip" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13936CFC1B6001A400C2254F;
+			productRefGroup = 13936D061B6001A400C2254F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13936D041B6001A400C2254F /* SwingShip */,
+				13936D1D1B6001A400C2254F /* SwingShipTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13936D031B6001A400C2254F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13E1AA061B6531A10022C65E /* sea03.png in Resources */,
+				13E1AA071B6531A10022C65E /* sea04.png in Resources */,
+				13936D141B6001A400C2254F /* Main.storyboard in Resources */,
+				13E1AA051B6531A10022C65E /* sea02.png in Resources */,
+				13936D191B6001A400C2254F /* LaunchScreen.xib in Resources */,
+				13936D311B60027800C2254F /* Sharazan.mp3 in Resources */,
+				13E1AA031B6531A10022C65E /* pirate_ship_new.png in Resources */,
+				13E1AA041B6531A10022C65E /* sea01.png in Resources */,
+				13936D161B6001A400C2254F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13936D1C1B6001A400C2254F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13936D011B6001A400C2254F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13936D111B6001A400C2254F /* ViewController.m in Sources */,
+				13936D0E1B6001A400C2254F /* AppDelegate.m in Sources */,
+				13936D0B1B6001A400C2254F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13936D1A1B6001A400C2254F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13936D251B6001A400C2254F /* SwingShipTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13936D201B6001A400C2254F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13936D041B6001A400C2254F /* SwingShip */;
+			targetProxy = 13936D1F1B6001A400C2254F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13936D121B6001A400C2254F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13936D131B6001A400C2254F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		13936D171B6001A400C2254F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13936D181B6001A400C2254F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13936D261B6001A400C2254F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		13936D271B6001A400C2254F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13936D291B6001A400C2254F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwingShip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		13936D2A1B6001A400C2254F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwingShip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		13936D2C1B6001A400C2254F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwingShipTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwingShip.app/SwingShip";
+			};
+			name = Debug;
+		};
+		13936D2D1B6001A400C2254F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwingShipTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwingShip.app/SwingShip";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13936D001B6001A400C2254F /* Build configuration list for PBXProject "SwingShip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13936D261B6001A400C2254F /* Debug */,
+				13936D271B6001A400C2254F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13936D281B6001A400C2254F /* Build configuration list for PBXNativeTarget "SwingShip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13936D291B6001A400C2254F /* Debug */,
+				13936D2A1B6001A400C2254F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13936D2B1B6001A400C2254F /* Build configuration list for PBXNativeTarget "SwingShipTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13936D2C1B6001A400C2254F /* Debug */,
+				13936D2D1B6001A400C2254F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13936CFD1B6001A400C2254F /* Project object */;
+}
